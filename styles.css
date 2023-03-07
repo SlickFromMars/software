@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap');
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@keyframes fade-in {
+    from {opacity: 0.3;}
+    to {opacity: 1;}
+}
+
+.content {
+    padding: 16px;
+    background-color: #d3d3d3;
+}
+
+div.header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    text-align: center;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    font-size: 5vh;
+}
+
+div.header h1 {
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+}
+
+div.module {
+    padding: 16px;
+    margin-top: 3vh;
+    background-color: #bcbcbc;
+    display: flex;
+    border-radius: 10px;
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+}
+
+.module img {
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.module div {
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    padding-left: 8px;
+    font-size: 3vh;
+}
+
+.module div h2 {
+    text-align: center;
+    width: auto;
+}
+
+h3.footer {
+    margin-top: 5vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.buttons {
+    padding-top: 3vh;
+    margin: auto;
+    width: max-content;
+}
+
+button {
+    background-color: #8c8c8c;
+    border: none;
+    color: white;
+    padding: 2vw 2vh;
+    width: 20vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+div.buttons button:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+div.logos {
+    width: fit-content;
+    margin: auto;
+}
+
+div.logos a img {
+    height: 20vh;
+}
